@@ -49,7 +49,7 @@ brew upgrade
 # download zsh shell (the main shell I use) with plugins
 brew install zsh
 brew install oh-my-zsh
-# zsh completions is not bundled with oh-my-zsh so clone it into .zsh repo.
+# zsh completions is not bundled with oh-my-zsh so clone it into .zsh repo. This adds the green/red indicator to your command.
 git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
 
 # If you're still in the default shell, change default shell to zsh manually
