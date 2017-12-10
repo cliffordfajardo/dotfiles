@@ -49,8 +49,12 @@ brew upgrade
 # download zsh shell (the main shell I use) with plugins
 brew install zsh
 brew install oh-my-zsh
-# zsh completions is not bundled with oh-my-zsh so clone it into .zsh repo. This adds the green/red indicator to your command.
+# Additional completion definitions for Zsh.
 git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
+# Shows your current command as green(valid command) or red(invalid command)
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/custom/plugins/zsh-syntax-highlighting
+# Better NPM completions
+git clone https://github.com/lukechilds/zsh-better-npm-completion ~/.oh-my-zsh/custom/plugins/zsh-better-npm-completion
 
 # If you're still in the default shell, change default shell to zsh manually
 chsh -s /usr/local/bin/zsh
