@@ -1,0 +1,42 @@
+# EditorConfig helps developers define & maintain consistent
+# coding styles between different editors & IDEs (editorconfig.org)
+
+
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# Go to editorconfig.org to download the plugin for your editor.
+
+root = true
+
+#All file extensions (these are  base rules).
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+
+[*.js]
+quote_type = single
+curly_bracket_next_line = false
+spaces_around_operators = true
+spaces_around_brackets = inside
+indent_brace_style = BSD KNF        # https://en.wikipedia.org/wiki/Indent_style#Variant:_BSD_KNF
+
+# HTML ## TODO: add for salesforce lightning & VF pages
+[*.html]
+quote_type = double
+
+
+# Salesforce/Force.com rules
+[*.{apxc,cls,component,object,page,trigger,xml}]
+indent_size = 4
+indent_style = space
+
+# Python rules
+[*.py]
+indent_size = 4
