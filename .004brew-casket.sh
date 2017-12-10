@@ -32,8 +32,7 @@ brew cask install flux            # https://justgetflux.com/news/pages/macquicks
 brew cask install slack           # https://slack.com/
 brew cask install virtualbox      # https://www.virtualbox.org/
 # install Mac Quick Look plugins   https://github.com/sindresorhus/quick-look-plugins/
-brew cask install qlcolorcode qlstecoppernicus
-phen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
 
 # Remove outdated versions from the cellar.
 brew cleanup
