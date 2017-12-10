@@ -22,6 +22,7 @@ brew tap caskroom/cask
 brew cask install alfred          # https://www.alfredapp.com/
 brew cask install appcleaner      # https://freemacsoft.net/appcleaner/
 brew cask install atom            # https://atom.io
+<<<<<<< HEAD
 brew cask install google-chrome
 brew cask install google-backup-and-sync
 brew cask install flux            # https://justgetflux.com/news/pages/macquickstart/
@@ -32,6 +33,16 @@ brew cask install 1password       # https://1password.com/
 brew cask install slack           # https://slack.com/
 brew cask install iterm2
 brew cask install visual-studio-code
+=======
+brew cask install cheatsheet      # https://www.cheatsheetapp.com/CheatSheet/ TODO: create alfred macro to show this for current app in focus
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install sublime-text    # https://www.sublimetext.com/
+brew cask install spectacle       # https://www.spectacleapp.com/
+brew cask install 1password       # https://1password.com/
+brew cask install flux            # https://justgetflux.com/news/pages/macquickstart/
+brew cask install slack           # https://slack.com/
+>>>>>>> 405f33fd383e1b96654b87424b6cae828c942738
 brew cask install virtualbox      # https://www.virtualbox.org/
 # install Mac Quick Look plugins   https://github.com/sindresorhus/quick-look-plugins/
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo

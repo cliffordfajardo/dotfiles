@@ -51,10 +51,15 @@ brew install zsh
 brew install oh-my-zsh
 # Additional completion definitions for Zsh.
 git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
+<<<<<<< HEAD
 
 # Shows your current command as green(valid command) or red(invalid command)
 brew install zsh-syntax-highlighting
 
+=======
+# Shows your current command as green(valid command) or red(invalid command)
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/custom/plugins/zsh-syntax-highlighting
+>>>>>>> 405f33fd383e1b96654b87424b6cae828c942738
 # Better NPM completions
 git clone https://github.com/lukechilds/zsh-better-npm-completion ~/.oh-my-zsh/custom/plugins/zsh-better-npm-completion
 
@@ -75,6 +80,16 @@ brew install shellcheck               # used for Atom linter shellcheck
 brew install sqlformat                # used for Atom Beautify package
 
 
+<<<<<<< HEAD
+=======
+
+# Type `git open` to open the GitHub page or website for a repository.
+npm install -g git-open
+
+# fancy listing of recent branches
+npm install -g git-recent
+
+>>>>>>> 405f33fd383e1b96654b87424b6cae828c942738
 # Remove outdated versions from the cellar.
 brew cleanup
 #########################################
