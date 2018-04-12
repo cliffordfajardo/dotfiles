@@ -14,6 +14,7 @@ apm install double-tag
 apm install editorconfig
 apm install emmet
 apm install es6-javascript
+apm install highlight-line
 apm install highlight-column
 apm install highlight-selected
 apm install hyperclick
