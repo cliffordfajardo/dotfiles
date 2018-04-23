@@ -7,9 +7,11 @@ npm install -g git-open
 # fancy listing of recent branches
 npm install -g git-recent
 # git diff command .. with fancy human readable output
-npm i -g diff-so-fancy
+npm install -g diff-so-fancy
 # kill procceses cross platform (useful for non-mac setups)
 npm install -g fkill-cli
+#cross platform copy to clipboard
+npm install -g cliboard-cli
 
 echo "COMPLETED '007npmsetup.sh' script"
 echo "------------------------------------------"
