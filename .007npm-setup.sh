@@ -12,6 +12,8 @@ npm install -g diff-so-fancy
 npm install -g fkill-cli
 #cross platform copy to clipboard
 npm install -g cliboard-cli
+#live reload server
+npm install -g live-server
 
 echo "COMPLETED '007npmsetup.sh' script"
 echo "------------------------------------------"
