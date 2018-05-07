@@ -55,6 +55,7 @@ alias gpull="git pull"
 alias gs="git status"
 alias gstash="git stash"
 alias gremote="git remote -v"
+alias git diff="git diff HEAD~1"
 
 
 # End of ALIASES --------------------------------------------------
