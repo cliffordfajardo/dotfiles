@@ -1,5 +1,6 @@
 code --install-extension  ms-vscode.atom-keybindings
 code --install-extension formulahendry.auto-close-tag
+code --install-extension xyz.local-history
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension tcasey.caddy-vscode
