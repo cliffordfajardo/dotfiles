@@ -34,17 +34,22 @@ plugins=(git colored-man-pages npm gulp grunt z httpie zsh-completions zsh-synta
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+# export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" <----This doesn't work..update dotfiles.
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
+
+
 source "$ZSH/oh-my-zsh.sh"
+
 
 # You may need to manually set your language environment
  export LANG=en_US.UTF-8
 
 
 # START of ALIASES --------------------------------------------------
-alias zshconfig="atom ~/.zshrc"
+alias zshconfig="code ~/.zshrc"
 
 # Git Aliases
 alias gadd="git add"
@@ -55,7 +60,13 @@ alias gpull="git pull"
 alias gs="git status"
 alias gstash="git stash"
 alias gremote="git remote -v"
-alias git diff="git diff HEAD~1"
+alias cat="bat"
+alias preview="fzf --preview 'bat --color \"always\" {}'"
+# add support for ctrl+o to open selected file in VS Code
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
+alias top="htop" # alias top and fix high sierra bug
 
 
 # End of ALIASES --------------------------------------------------
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
