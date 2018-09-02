@@ -78,10 +78,9 @@ brew install git                      # http://brewformulas.org/Rename
 brew install node                     # https://nodejs.org/en/
 brew install shellcheck               # used for Atom linter shellcheck
 brew install sqlformat                # used for Atom Beautify package
-
-
-<<<<<<< HEAD
-=======
+brew install htop                     # better version of top
+brew install bat                      # enhanced version of cat
+brew install fzf                      # fuzzy search directories & command history // make sure to run brew info fzf to get the path to the install command script
 
 # Type `git open` to open the GitHub page or website for a repository.
 npm install -g git-open
@@ -89,7 +88,6 @@ npm install -g git-open
 # fancy listing of recent branches
 npm install -g git-recent
 
->>>>>>> 405f33fd383e1b96654b87424b6cae828c942738
 # Remove outdated versions from the cellar.
 brew cleanup
 #########################################
