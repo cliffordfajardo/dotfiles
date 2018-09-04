@@ -14,6 +14,12 @@ npm install -g fkill-cli
 npm install -g cliboard-cli
 #live reload server
 npm install -g live-server
+# Type `git open` to open the GitHub page or website for a repository.
+npm install -g git-open
+# fancy listing of recent branches
+npm install -g git-recent
+#Opens stuff like websites, files, executables. Cross-platform.
+npm install -g opn
 
 echo "COMPLETED '007npmsetup.sh' script"
 echo "------------------------------------------"

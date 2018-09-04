@@ -49,17 +49,13 @@ brew upgrade
 # download zsh shell (the main shell I use) with plugins
 brew install zsh
 brew install oh-my-zsh
+
 # Additional completion definitions for Zsh.
 git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
-<<<<<<< HEAD
 
-# Shows your current command as green(valid command) or red(invalid command)
-brew install zsh-syntax-highlighting
-
-=======
 # Shows your current command as green(valid command) or red(invalid command)
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/custom/plugins/zsh-syntax-highlighting
->>>>>>> 405f33fd383e1b96654b87424b6cae828c942738
+
 # Better NPM completions
 git clone https://github.com/lukechilds/zsh-better-npm-completion ~/.oh-my-zsh/custom/plugins/zsh-better-npm-completion
 
@@ -81,12 +77,6 @@ brew install sqlformat                # used for Atom Beautify package
 brew install htop                     # better version of top
 brew install bat                      # enhanced version of cat
 brew install fzf                      # fuzzy search directories & command history // make sure to run brew info fzf to get the path to the install command script
-
-# Type `git open` to open the GitHub page or website for a repository.
-npm install -g git-open
-
-# fancy listing of recent branches
-npm install -g git-recent
 
 # Remove outdated versions from the cellar.
 brew cleanup
