@@ -77,6 +77,7 @@ brew install sqlformat                # used for Atom Beautify package
 brew install htop                     # better version of top
 brew install bat                      # enhanced version of cat
 brew install fzf                      # fuzzy search directories & command history // make sure to run brew info fzf to get the path to the install command script
+brew install zsh-autosuggestions      # typeahead like results while typing
 
 # Remove outdated versions from the cellar.
 brew cleanup
