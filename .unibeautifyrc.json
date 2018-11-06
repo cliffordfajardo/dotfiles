@@ -1,0 +1,29 @@
+{
+  "TypeScript": {
+      "beautifiers": [
+          "Prettier", "Pretty Diff"
+      ],
+      "indent_size": "2"
+  },
+  "JavaScript": {
+      "beautifiers": [
+          "Prettier", "Pretty Diff", "JS-Beautify", "ESLint"
+      ],
+      "indent_size": "2"
+  },
+  "HTML": {
+      "beautifiers": [
+          "Pretty Diff", "JS-Beautify"
+      ],
+      "indent_size": "2"
+  },
+  "JSON": {
+      "beautifiers": [
+          "Prettier", "Pretty Diff", "JS-Beautify"
+      ],
+      "indent_size": "2"
+  },
+  "*": {
+    "indent_size": "2"
+  }
+}
