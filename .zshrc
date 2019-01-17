@@ -62,6 +62,7 @@ alias gstash="git stash"
 alias gremote="git remote -v"
 alias cat="bat"
 alias preview="fzf --preview 'bat --color \"always\" {}'"
+alias cli-history="fzf-history-widget" # Blazing fast fuzzy search history of commands I've entered in terminal.
 # add support for ctrl+o to open selected file in VS Code
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'" # https://remysharp.com/2018/08/23/cli-improved
 alias top="htop" # alias top and fix high sierra bug
