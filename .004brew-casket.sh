@@ -21,7 +21,6 @@ brew tap caskroom/cask
 
 brew cask install alfred          # https://www.alfredapp.com/
 brew cask install appcleaner      # https://freemacsoft.net/appcleaner/
-brew cask install atom            # https://atom.io
 brew cask install google-chrome
 brew cask install google-backup-and-sync
 brew cask install flux            # https://justgetflux.com/news/pages/macquickstart/
