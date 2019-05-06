@@ -21,6 +21,9 @@ npm install -g git-recent
 #Opens stuff like websites, files, executables. Cross-platform.
 npm install -g opn
 
+# Pretty print JSON, manipulate it and much more in the CLI.
+npm install -g json
+
 echo "COMPLETED '007npmsetup.sh' script"
 echo "------------------------------------------"
 exit 0
