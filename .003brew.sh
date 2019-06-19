@@ -46,6 +46,9 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# List proccesses as a tree (not available on mac by default, unlike other nix systems (Ubuntu etc)
+brew install pstree
+
 # download zsh shell (the main shell I use) with plugins
 brew install zsh
 brew install oh-my-zsh
