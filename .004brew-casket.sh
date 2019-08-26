@@ -30,6 +30,7 @@ brew cask install spectacle       # https://www.spectacleapp.com/
 brew cask install 1password       # https://1password.com/
 brew cask install slack           # https://slack.com/
 brew cask install iterm2
+brew cask install db-browser-for-sqlite 
 brew cask install visual-studio-code
 brew cask install virtualbox      # https://www.virtualbox.org/
 # install Mac Quick Look plugins   https://github.com/sindresorhus/quick-look-plugins/
