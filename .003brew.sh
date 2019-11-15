@@ -49,23 +49,6 @@ brew upgrade
 # List proccesses as a tree (not available on mac by default, unlike other nix systems (Ubuntu etc)
 brew install pstree
 
-# download zsh shell (the main shell I use) with plugins
-brew install zsh
-brew install oh-my-zsh
-
-# Additional completion definitions for Zsh.
-git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
-
-# Shows your current command as green(valid command) or red(invalid command)
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/custom/plugins/zsh-syntax-highlighting
-
-# Better NPM completions
-git clone https://github.com/lukechilds/zsh-better-npm-completion ~/.oh-my-zsh/custom/plugins/zsh-better-npm-completion
-
-# If you're still in the default shell, change default shell to zsh manually
-chsh -s /usr/local/bin/zsh
-
-
 
 # Install font tools.
 brew tap caskroom/fonts         #installs Fira Code font with Ligatures see: https://github.com/tonsky/FiraCode/wiki
@@ -80,8 +63,8 @@ brew install sqlformat                # used for Atom Beautify package
 brew install htop                     # better version of top
 brew install bat                      # enhanced version of cat
 brew install fzf                      # fuzzy search directories & command history // make sure to run brew info fzf to get the path to the install command script
-brew install zsh-autosuggestions      # typeahead like results while typing
 brew install exa                      # modern version of 'ls' command: https://github.com/ogham/exa
+
 # Remove outdated versions from the cellar.
 brew cleanup
 #########################################
