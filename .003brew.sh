@@ -4,9 +4,6 @@ echo "STARTING '003brew.sh' script"
 
 
 
-
-
-
 ########################
 # START Install Homebrew
 ########################
@@ -34,9 +31,6 @@ fi
 
 
 
-
-
-
 #########################################
 # START Install my Homebrew packages
 ########################################
@@ -46,8 +40,6 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-# List proccesses as a tree (not available on mac by default, unlike other nix systems (Ubuntu etc)
-brew install pstree
 
 
 # Install font tools.
@@ -55,23 +47,24 @@ brew tap caskroom/fonts         #installs Fira Code font with Ligatures see: htt
 brew cask install font-fira-code
 
 # Install other useful binaries.
-brew install tree                     # http://brewformulas.org/tree
+brew install bat                      # enhanced version of cat
+brew install exa                      # modern version of 'ls' command: https://github.com/ogham/exa
+brew install figlet                   # Make large text from orginary characters http://www.figlet.org/
+brew install fzf                      # fuzzy search directories & command history
+brew install htop                     # better version of top
+brew install pstree                   # List proccesses as a tree (not available on mac by default, unlike other nix systems (Ubuntu etc)
 brew install git                      # http://brewformulas.org/Rename
 brew install node                     # https://nodejs.org/en/
 brew install shellcheck               # used for Atom linter shellcheck
 brew install sqlformat                # used for Atom Beautify package
-brew install htop                     # better version of top
-brew install bat                      # enhanced version of cat
-brew install fzf                      # fuzzy search directories & command history // make sure to run brew info fzf to get the path to the install command script
-brew install exa                      # modern version of 'ls' command: https://github.com/ogham/exa
+brew install tree                     # http://brewformulas.org/tree
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
 #########################################
 # END Install of my Homebrew packages
 ########################################
-
-
 
 
 
