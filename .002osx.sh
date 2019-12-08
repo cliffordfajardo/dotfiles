@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-
-
 echo "------------------------------------------"
 echo "STARTING '002osx.sh' script"
 

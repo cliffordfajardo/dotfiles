@@ -1,6 +1,7 @@
-# TODO .....
-# find the non node version of these so you don't need to rely on NodeJS
-
+#!/bin/bash
+echo "STARTING '006vscode-setup.sh' script"
+echo "------------------------------------------"
+# TODO ..... find the non node version of these (c/rust or go versions....)so you don't need to rely on NodeJS
 
 
 # Smart Emoji finder

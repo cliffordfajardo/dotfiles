@@ -49,6 +49,7 @@ brew cask install font-fira-code
 # Install other useful binaries.
 brew install bat                      # enhanced version of cat
 brew install diff-so-fancy            # git diff command .. with fancy human readable output
+brew install -g git-open              # open the GitHub page for a repository.
 brew install exa                      # modern version of 'ls' command: https://github.com/ogham/exa
 brew install figlet                    # Make large text from orginary characters http://www.figlet.org/
 brew install fzf                      # fuzzy search directories & command history

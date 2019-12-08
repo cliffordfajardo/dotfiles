@@ -1,3 +1,7 @@
+#!/bin/bash
+echo "------------------------------------------"
+echo "STARTING '006vscode-setup.sh' script"
+
 code --install-extension ms-vscode.atom-keybindings
 code --install-extension ms-vsliveshare.vsliveshare-pack
 code --install-extension abiospampinato.vscode-open-in-finder

@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "------------------------------------------"
+echo "STARTING '004brew-casket.sh' script"
 
 
 # 'brew cask' is an extension to brew that allows management of graphical applications through the Cask project.
