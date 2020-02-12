@@ -34,7 +34,7 @@ brew cask install imageoptim
 brew cask install iterm2
 brew cask install slack           # https://slack.com/
 brew cask install sloth           # https://github.com/sveinbjornt/Sloth
-brew cask install spectacle       # https://www.spectacleapp.com/
+brew cask install rectangle       # https://www.spectacleapp.com/
 brew cask install sublime-text    # https://www.sublimetext.com/
 brew cask install visual-studio-code
 brew cask install virtualbox      # https://www.virtualbox.org/
