@@ -16,6 +16,7 @@ sudo apt upgrade
 #------------------apt installs------------------------
 sudo apt install -y git
 sudo apt install -y ubuntu-restricted-extras
+sudo apt install -y dconf-editor
 sudo apt install -y vim
 sudo apt install -y fzf
 sudo apt install -y bat

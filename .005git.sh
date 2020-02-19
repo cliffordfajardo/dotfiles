@@ -2,6 +2,7 @@
 echo "------------------------------------------"
 echo "STARTING '005git.sh' script"
 
+git config [--global] option value
 # Configure git to use diff-so-fancy for all diff output .... https://github.com/so-fancy/diff-so-fancy
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 git config --global color.ui true
