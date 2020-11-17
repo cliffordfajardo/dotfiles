@@ -31,6 +31,7 @@ brew cask install google-chrome
 brew cask install google-backup-and-sync
 brew cask install flux            # https://justgetflux.com/news/pages/macquickstart/
 brew cask install imageoptim
+brew cask install vlc
 brew cask install iterm2
 brew cask install slack           # https://slack.com/
 brew cask install sloth           # https://github.com/sveinbjornt/Sloth
