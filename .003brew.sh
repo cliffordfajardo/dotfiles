@@ -61,6 +61,7 @@ brew install shellcheck               # used for Atom linter shellcheck
 brew install sqlformat                # used for Atom Beautify package
 npm install -g tldr                   # If `man` pages don't help much, this is my next fallback resource as a fallback to avoid using the browser, to avoid context switching. These are simplified community-driven man pages.
 brew install tree                     # http://brewformulas.org/tree
+brew install bandwhich                # displaying current network utilization by process, connection and remote IP/hostname  -- https://github.com/imsnif/bandwhich
 
 
 # Remove outdated versions from the cellar.
