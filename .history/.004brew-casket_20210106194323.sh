@@ -26,7 +26,7 @@ brew tap caskroom/cask
 brew install --cask 1password       # https://1password.com/
 brew install --cask alfred          # https://www.alfredapp.com/
 brew install --cask appcleaner      # https://freemacsoft.net/appcleaner/
-brew install --cask db-browser-for-sqlite
+brew install --cask db-browser-for-sqlite 
 brew install --cask google-chrome
 brew install --cask google-backup-and-sync
 brew install --cask flux            # https://justgetflux.com/news/pages/macquickstart/
