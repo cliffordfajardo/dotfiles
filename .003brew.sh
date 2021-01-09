@@ -47,6 +47,7 @@ brew tap caskroom/fonts         #installs Fira Code font with Ligatures see: htt
 brew cask install font-fira-code
 
 # Install other useful binaries.
+brew install espanso
 brew install bat                      # enhanced version of cat
 brew install diff-so-fancy            # git diff command .. with fancy human readable output
 brew install -g git-open              # open the GitHub page for a repository.
