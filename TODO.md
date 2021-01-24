@@ -6,3 +6,10 @@
 
 
 add dropbox as a home brew install
+
+
+```
+# if [[ "$(uname -m)" == "arm64" ]]; then 'uname doest exist on mac.'
+  export PATH="/opt/homebrew/bin:${PATH}"
+# fi
+```
